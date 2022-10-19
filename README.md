@@ -60,6 +60,6 @@ exports.nextServer = https.onRequest((req, res) => {
 });
 ```
 
-* Past this line `"main": "functions.js"` into the package.json file
+* Paste this line `"main": "functions.js"` into the package.json file
 * Run: `npm run build`
 * `firebase deploy`
